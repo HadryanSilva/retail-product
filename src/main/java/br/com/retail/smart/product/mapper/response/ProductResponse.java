@@ -15,5 +15,6 @@ public class ProductResponse {
     private Category category;
     private Double purchasePrice;
     private Double salePrice;
+    private Boolean active;
 
 }

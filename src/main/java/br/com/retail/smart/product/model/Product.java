@@ -42,6 +42,9 @@ public class Product {
     @Column(nullable = false)
     private BigDecimal salePrice;
 
+    @Column(nullable = false)
+    private Boolean active;
+
     @CreatedDate
     private Instant createdAt;
 

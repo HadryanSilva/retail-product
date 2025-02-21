@@ -16,5 +16,6 @@ public class ProductRequest {
     private Category category;
     private BigDecimal purchasePrice;
     private BigDecimal salePrice;
+    private Boolean active;
 
 }
